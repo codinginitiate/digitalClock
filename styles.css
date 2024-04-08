@@ -1,0 +1,35 @@
+body{
+    background-image: url(brody-mask.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color:hsl(86, 77%, 49%);
+    text-shadow:
+            2px 0 #4a4646,
+            -2px 0 #4a4646,
+            0 2px #4a4646,
+            0 -2px #4a4646,
+            1px 1px #4a4646,
+            -1px -1px #4a4646,
+            1px -1px #4a4646,
+            -1px 1px #4a4646;
+    backdrop-filter: blur(5px);
+    background-color: hsla(136, 37%, 52%, 0.119);
+    width: 100%;
+
+}
